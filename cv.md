@@ -50,3 +50,12 @@
 * Тайм-менеджмент
 * Ответственность
 * Креативность
+
+## Пример кода (Code Example)
+
+Решение задачи с Codewars (Multiply):
+
+```javascript
+function multiply(a, b) {
+  return a * b;
+}
