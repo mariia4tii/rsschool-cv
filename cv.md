@@ -5,7 +5,7 @@
 * **Email:** tishjevich04masha@gmail.com
 * **Behance:** [behance.net/b437cb58](https://www.behance.net/b437cb58)
 * **GitHub:** [github.com/mariia4tii](https://github.com/mariia4tii)
-* **Discord:** tishjevich04masha
+* **Discord:** batia09072
 
 ---
 
