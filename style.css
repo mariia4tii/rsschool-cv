@@ -3,3 +3,216 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  font-family: 'Inter', Arial, sans-serif;
+  background-color: #ECEAE1;
+  color: #1A1A1A;
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.cv-card {
+  background-color: #ECEAE1;
+  max-width: 850px;
+  width: 100%;
+  padding: 20px;
+}
+
+/* TOP CONTACTS */
+.top-contacts {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  font-size: 14px;
+}
+
+.contact-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-item .label {
+  font-size: 12px;
+  color: #555;
+  margin-bottom: 2px;
+}
+
+.contact-item a {
+  color: #1A1A1A;
+  text-decoration: none;
+}
+
+/* GRID LAYOUT */
+.main-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 40px;
+}
+
+/* HERO SECTION */
+.hero-header h1 {
+  font-size: 80px;
+  font-weight: 900;
+  letter-spacing: -2px;
+  line-height: 0.9;
+  margin-bottom: 10px;
+}
+
+.hero-sub {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  margin-bottom: 25px;
+}
+
+.about-text {
+  font-size: 13px;
+  line-height: 1.4;
+  color: #2C2C2C;
+  margin-bottom: 35px;
+}
+
+/* SECTIONS & HEADINGS */
+.section {
+  margin-bottom: 30px;
+}
+
+.section h2 {
+  font-size: 22px;
+  font-weight: 900;
+  letter-spacing: -0.5px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+/* WORK EXPERIENCE */
+.job-item {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #D5D2C7;
+  padding-bottom: 15px;
+}
+
+.job-item:last-child {
+  border-bottom: none;
+}
+
+.job-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.job-desc {
+  font-size: 12px;
+  line-height: 1.35;
+  color: #333;
+}
+
+/* TOOLS BADGES */
+.tools-grid {
+  display: flex;
+  gap: 8px;
+}
+
+.tool-badge {
+  background-color: #1A1A1A;
+  color: #FFF;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+/* CODE BLOCK */
+pre {
+  background: #1A1A1A;
+  color: #FFF;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 12px;
+  overflow-x: auto;
+}
+
+/* RIGHT COLUMN PHOTO */
+.profile-img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  filter: grayscale(100%);
+  margin-bottom: 25px;
+}
+
+/* EDUCATION */
+.edu-item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+/* PILLS / TAGS (SOFT SKILLS & SKILLS) */
+.pills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  list-style: none;
+}
+
+.pill {
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.pill.black {
+  background-color: #1A1A1A;
+  color: #FFF;
+}
+
+.pill.outline {
+  background-color: transparent;
+  border: 1px solid #777;
+  color: #1A1A1A;
+}
+
+/* LANGUAGES */
+.lang-item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.dots {
+  letter-spacing: 2px;
+}
+
+/* FOOTER FOR RS SCHOOL */
+.footer {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #1A1A1A;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+}
+
+.footer-link {
+  color: #1A1A1A;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.rs-logo {
+  height: 24px;
+}

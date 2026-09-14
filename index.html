@@ -1,12 +1,169 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CV</title>
+  <title>Resume - Maria</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1>CV</h1>
+  <div class="cv-card">
+    <header class="top-contacts" id="contacts">
+      <div class="contact-item">
+        <span class="label">email</span>
+        <a href="mailto:tishjevich04masha@gmail.com">tishjevich04masha@gmail.com</a>
+      </div>
+      <div class="contact-item">
+        <span class="label">behance</span>
+        <a href="https://www.behance.net/b437cb58" target="_blank" rel="noopener">https://www.behance.net/b437cb58</a>
+      </div>
+    </header>
+
+    <div class="main-grid">
+      <!-- ЛЕВАЯ КОЛОНКА -->
+      <div class="left-col">
+        <header class="hero-header">
+          <h1>RESUME</h1>
+          <div class="hero-sub">
+            <span>UX/UI DESIGNER &amp; FRONTEND</span>
+            <span>MARIA</span>
+          </div>
+        </header>
+
+        <section class="about-text" id="about">
+          <p>
+            Я UX/UI дизайнер и Frontend-разработчик с опытом создания креативных лендинг-страниц и адаптации их под мобильные устройства. Разрабатываю дизайн для приложений, а также создаю визуальные материалы для презентаций и постов в социальных сетях. В своей работе уделяю внимание удобству, эстетике и современным тенденциям, сочетая креативность с функциональностью и чистым кодом.
+          </p>
+        </section>
+
+        <section class="section" id="experience">
+          <h2>WORK EXPERIENCE</h2>
+          
+          <div class="job-item">
+            <div class="job-header">
+              <span class="job-title">LANDING PAGE</span>
+              <span class="job-date">2023</span>
+            </div>
+            <p class="job-desc">Проект реализован бесплатно для друзей</p>
+          </div>
+
+          <div class="job-item">
+            <div class="job-header">
+              <span class="job-title">PROJECT FOR UNIVERSITY</span>
+              <span class="job-date">2023-2024</span>
+            </div>
+            <p class="job-desc">
+              Создала дизайн и осуществила вёрстку сайта для пиццерии, специализирующейся на неаполитанской пицце
+            </p>
+          </div>
+
+          <div class="job-item">
+            <div class="job-header">
+              <span class="job-title">FREELANCE WORK</span>
+              <span class="job-date">2024-2025</span>
+            </div>
+            <p class="job-desc">
+              Разрабатывала визуальный стиль и дизайн-материалы для психолога: презентации, посты для социальных сетей. Выполняла полный цикл работ: от разработки лендинг-страниц до дизайна приложений.
+            </p>
+          </div>
+        </section>
+
+        <section class="section">
+          <h2>TOOLS</h2>
+          <div class="tools-grid">
+            <div class="tool-badge">Figma</div>
+            <div class="tool-badge">Ai</div>
+            <div class="tool-badge">Ae</div>
+            <div class="tool-badge">Ps</div>
+            <div class="tool-badge">VS Code</div>
+          </div>
+        </section>
+
+        <section class="section" id="code">
+          <h2>CODE EXAMPLE</h2>
+          <pre><code>function multiply(a, b) {
+  return a * b;
+}</code></pre>
+        </section>
+      </div>
+
+      <!-- ПРАВАЯ КОЛОНКА -->
+      <div class="right-col">
+        <div class="photo-wrapper">
+          <img src="avatar.jpg" alt="Maria Photo" class="profile-img">
+        </div>
+
+        <section class="section">
+          <h2>EDUCATION</h2>
+          <div class="edu-item">
+            <span class="edu-title">COURSE "ALCHEMY OF WEB-DESIGN"</span>
+            <span class="edu-date">2024</span>
+          </div>
+          <div class="edu-item">
+            <span class="edu-title">BSUIR</span>
+            <span class="edu-date">2022-2026</span>
+          </div>
+          <div class="edu-item">
+            <span class="edu-title">RS SCHOOL (JS/FE)</span>
+            <span class="edu-date">2026</span>
+          </div>
+        </section>
+
+        <section class="section" id="soft-skills">
+          <h2>SOFT SKILLS</h2>
+          <ul class="pills-list">
+            <li class="pill black">Коммуникация</li>
+            <li class="pill outline">Тайм-менеджмент</li>
+            <li class="pill outline">Работа в команде</li>
+            <li class="pill outline">Ответственность</li>
+            <li class="pill outline">Адаптивность</li>
+            <li class="pill black">Креативность</li>
+          </ul>
+        </section>
+
+        <section class="section" id="skills">
+          <h2>SKILLS</h2>
+          <ul class="pills-list">
+            <li class="pill black">User Experience</li>
+            <li class="pill outline">User Interface</li>
+            <li class="pill outline">Adaptive Design</li>
+            <li class="pill outline">Ui-kit</li>
+            <li class="pill outline">Ux Research</li>
+            <li class="pill black">Interactive Design</li>
+            <li class="pill black">User Experience</li>
+            <li class="pill outline">User Flow</li>
+            <li class="pill black">Css</li>
+            <li class="pill black">Html</li>
+            <li class="pill black">Git</li>
+            <li class="pill black">JavaScript</li>
+          </ul>
+        </section>
+
+        <section class="section">
+          <h2>LANGUAGES</h2>
+          <div class="lang-item">
+            <span>ENGLISH</span>
+            <span class="dots">●●●○○</span>
+          </div>
+          <div class="lang-item">
+            <span>RUSSIAN</span>
+            <span class="dots">●●●●●</span>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <!-- ТРЕБОВАНИЕ RS SCHOOL: FOOTER -->
+    <footer class="footer">
+      <a href="https://github.com/mariia4tii" target="_blank" rel="noopener" class="footer-link">GitHub</a>
+      <span class="year">2026</span>
+      <a href="https://rs.school/courses/javascript-preschool" target="_blank" rel="noopener">
+        <img src="https://rs.school/images/rs_school_js.svg" alt="RS School Logo" class="rs-logo">
+      </a>
+    </footer>
+  </div>
 </body>
 </html>
